@@ -1,4 +1,4 @@
-import { get } from './get.js';
+/* import { get } from './get.js';
 
 import { insert } from '../data-access/insert.js';
 import { removeAll } from '../data-access/remove-all.js';
@@ -39,3 +39,4 @@ describe('get: the value stored behind a key', () => {
     expect(passANumber).toThrow(TypeError);
   });
 });
+ */

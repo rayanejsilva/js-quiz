@@ -1,4 +1,4 @@
-import { addNumber } from './add-number.js';
+/* import { addNumber } from './add-number.js';
 
 import { insert } from '../data-access/insert.js';
 import { find } from '../data-access/find.js';
@@ -28,3 +28,4 @@ describe('addNumber: adds a number to the "numbers" array in state', () => {
     expect(passStingArgument).toThrow(TypeError);
   });
 });
+ */
