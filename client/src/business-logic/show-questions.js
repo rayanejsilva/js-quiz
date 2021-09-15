@@ -2,14 +2,12 @@ import { find } from "../data-access/find.js";
 
 export const showQuestion = () => {
    // read values from state
-   const questions = find("questions");
+   const readQuestions = find("questions");
 
-   const newQuestion = (questionIndex) => {
-      for (let i = 0; i < questions.length; i++) {
-         let userQuestion = questions[questionIndex].question;
+   const displayQuestion = (questionIndex) => {
+      for (let i = 0; i < readQuestions.length; i++) {
+         let userQuestion = readquestions[questionIndex].question;
          return userQuestion;
       }
    };
-
-   save("questions", newQuestion);
 };
